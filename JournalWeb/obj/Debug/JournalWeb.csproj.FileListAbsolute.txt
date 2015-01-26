@@ -1,0 +1,15 @@
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\obj\Debug\JournalWeb.csprojResolveAssemblyReference.cache
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\JournalWeb.dll.config
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\JournalWeb.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\JournalWeb.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\log4net.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.AccessHelper.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.Common.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.JournalModel.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.Other.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.AccessHelper.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.Common.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.JournalModel.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\bin\NetChina.Other.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\obj\Debug\JournalWeb.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\JournalWeb\obj\Debug\JournalWeb.pdb

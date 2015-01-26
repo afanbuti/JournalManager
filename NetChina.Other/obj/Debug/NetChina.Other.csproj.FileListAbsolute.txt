@@ -1,0 +1,13 @@
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\obj\Debug\NetChina.Other.csprojResolveAssemblyReference.cache
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.Other.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.Other.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.AccessHelper.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.JournalModel.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.Common.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.AccessHelper.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.JournalModel.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\bin\Debug\NetChina.Common.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\obj\Debug\NetChina.Other.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Other\obj\Debug\NetChina.Other.pdb

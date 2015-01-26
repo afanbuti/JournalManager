@@ -358,7 +358,7 @@ namespace JournalWeb.manage
             NetUserJournal uJoul = new NetUserJournal();
             UserJournal jourlInfo = new UserJournal();
                       
-            DataTable dt = uJoul.GetJournalDataSet(KeyWord,beginSearchDate,endSearchDate, 0, 1, true).Tables[0];            
+            System.Data.DataTable dt = uJoul.GetJournalDataSet(KeyWord,beginSearchDate,endSearchDate, 0, 1, true).Tables[0];            
             StringBuilder sbXml = new StringBuilder();
             string title=string.Empty;
             if (this.beginTime.Value == this.endTime.Value)

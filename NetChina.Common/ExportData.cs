@@ -44,7 +44,7 @@ namespace NetChina.Common
             HttpContext.Current.Response.End();
         }
 
-        public static string CreateWordFile(string title,DataTable dt)
+        public static string CreateWordFile(string title,System.Data.DataTable dt)
         {
             string message = "";
             try

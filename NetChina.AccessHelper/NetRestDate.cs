@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Data.OleDb;
-
 using NetChina.JournalModel;
 using NetChina.AccessHelper;
 using System.Data.OleDb;
@@ -145,7 +143,41 @@ namespace NetChina.AccessHelper
            }
            return resultNum;
        }
+       public DataSet GetUserIdDataSetByRestDate(string pRestDate)
+       {
+           DataSet objDs = new DataSet("result");
+           string _sqlstr = string.Empty;
+           OleDbParameter[] parms = null;
+           /*parms = new OleDbParameter[] {
+                                                               new OleDbParameter(Parm_BeginDate,OleDbType.VarChar),
+                                                               new OleDbParameter(Parm_EndDate,OleDbType.VarChar)
+                                                                };
+           parms[0].Value = this.GetFullDate(pBeginTime);
+           parms[1].Value = this.GetFullDate(pEndTime);
 
+           */
+           /*
+           if (pIsAddAll)
+           {
+               _sqlstr = string.Format(SQL_Select_RestDateAllByBegin_End, "( UserId= " + pUserId.ToString() + " or UserId=-1 )");
+           }
+           else
+           {
+               _sqlstr = string.Format(SQL_Select_RestDateAllByBegin_End, "( UserId= " + pUserId.ToString() + " )");
+           }*/
+           _sqlstr = string.Format(SQL_Select_RestDateAll, pRestDate);
+           try
+           {
+               objDs = AccessHelper.ExcuteDataSet(AccessHelper.CONN_STRING, CommandType.Text, _sqlstr, parms);
+
+           }
+           catch (Exception ex)
+           {
+
+           }
+
+           return objDs;
+       }
 
     /// <summary>
        /// 获取假日数量，判断假日是否存在

@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetChina.JournalModel", "NetChina.JournalModel\NetChina.JournalModel.csproj", "{58F0E030-F032-438F-AFFB-05F7BD3DD088}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
@@ -35,27 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalWeb", "JournalWeb\Jo
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://zrhd_code_serve:8080/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = NetChina.AccessHelper\\NetChina.AccessHelper.csproj
-		SccProjectName1 = NetChina.AccessHelper
-		SccLocalPath1 = NetChina.AccessHelper
-		SccProjectUniqueName2 = NetChina.Common\\NetChina.Common.csproj
-		SccProjectName2 = NetChina.Common
-		SccLocalPath2 = NetChina.Common
-		SccProjectUniqueName3 = NetChina.JournalModel\\NetChina.JournalModel.csproj
-		SccProjectName3 = NetChina.JournalModel
-		SccLocalPath3 = NetChina.JournalModel
-		SccProjectUniqueName4 = NetChina.Other\\NetChina.Other.csproj
-		SccProjectName4 = NetChina.Other
-		SccLocalPath4 = NetChina.Other
-		SccProjectUniqueName5 = JournalWeb\\JournalWeb.csproj
-		SccProjectName5 = JournalWeb
-		SccLocalPath5 = JournalWeb
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

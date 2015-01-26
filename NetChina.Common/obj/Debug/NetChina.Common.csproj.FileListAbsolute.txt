@@ -1,0 +1,10 @@
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\obj\Debug\Interop.Office.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\obj\Debug\NetChina.Common.csproj.ResolveComReference.cache
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\NetChina.Common.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\NetChina.Common.pdb
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\bin\Debug\Interop.Office.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\obj\Debug\NetChina.Common.dll
+D:\用户目录\下载\JournalManager090615\JournalManager\NetChina.Common\obj\Debug\NetChina.Common.pdb
