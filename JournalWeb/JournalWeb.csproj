@@ -1,0 +1,341 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{790F1140-9266-440F-9259-F52AFD65EC39}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JournalWeb</RootNamespace>
+    <AssemblyName>JournalWeb</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.9.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\netchinav1\classLibrary\bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator\桌面\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inc\images\Admin_Login1.GIF" />
+    <Content Include="inc\images\Admin_Login2.gif" />
+    <Content Include="inc\images\Admin_Login3.gif" />
+    <Content Include="inc\js\jquery.js" />
+    <Content Include="login.aspx" />
+    <Content Include="manage\userManager.aspx" />
+    <Content Include="manage\JournalList.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="filemanage\AddDoc.aspx.cs">
+      <DependentUpon>AddDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="filemanage\AddDoc.aspx.designer.cs">
+      <DependentUpon>AddDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="filemanage\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="filemanage\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\delpage.ashx.cs">
+      <DependentUpon>delpage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\doMission.ashx.cs">
+      <DependentUpon>doMission.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\dosome.ashx.cs">
+      <DependentUpon>dosome.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\File.ashx.cs">
+      <DependentUpon>File.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="handler\missionFile.ashx.cs">
+      <DependentUpon>missionFile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loginout.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>loginout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="loginout.aspx.designer.cs">
+      <DependentUpon>loginout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\ExportTo.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ExportTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\ExportTo.aspx.designer.cs">
+      <DependentUpon>ExportTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\MissionList.aspx.cs">
+      <DependentUpon>MissionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\MissionList.aspx.designer.cs">
+      <DependentUpon>MissionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\showEval.aspx.cs">
+      <DependentUpon>showEval.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\showEval.aspx.designer.cs">
+      <DependentUpon>showEval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\showMission.aspx.cs">
+      <DependentUpon>showMission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\showMission.aspx.designer.cs">
+      <DependentUpon>showMission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\systemManage.aspx.cs">
+      <DependentUpon>systemManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\systemManage.aspx.designer.cs">
+      <DependentUpon>systemManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\userList.aspx.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\userList.aspx.designer.cs">
+      <DependentUpon>userList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\userManager.aspx.cs">
+      <DependentUpon>userManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\userManager.aspx.designer.cs">
+      <DependentUpon>userManager.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\JournalList.aspx.cs">
+      <DependentUpon>JournalList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\JournalList.aspx.designer.cs">
+      <DependentUpon>JournalList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manage\userModify.aspx.cs">
+      <DependentUpon>userModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manage\userModify.aspx.designer.cs">
+      <DependentUpon>userModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user\userModify.aspx.cs">
+      <DependentUpon>userModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\userModify.aspx.designer.cs">
+      <DependentUpon>userModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\viewList.aspx.cs">
+      <DependentUpon>viewList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\viewList.aspx.designer.cs">
+      <DependentUpon>viewList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\viewMission.aspx.cs">
+      <DependentUpon>viewMission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\viewMission.aspx.designer.cs">
+      <DependentUpon>viewMission.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NetChina.AccessHelper\NetChina.AccessHelper.csproj">
+      <Project>{4028C123-91C9-4036-9B6A-5C03122AAFA3}</Project>
+      <Name>NetChina.AccessHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetChina.Common\NetChina.Common.csproj">
+      <Project>{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}</Project>
+      <Name>NetChina.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetChina.JournalModel\NetChina.JournalModel.csproj">
+      <Project>{58F0E030-F032-438F-AFFB-05F7BD3DD088}</Project>
+      <Name>NetChina.JournalModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetChina.Other\NetChina.Other.csproj">
+      <Project>{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}</Project>
+      <Name>NetChina.Other</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handler\delpage.ashx" />
+    <Content Include="inc\css\jwindow.css" />
+    <Content Include="inc\images\window_close.gif" />
+    <Content Include="inc\images\window_min.gif" />
+    <Content Include="inc\js\jquery.interface.js" />
+    <Content Include="inc\js\jquery.jwindow.js" />
+    <Content Include="inc\js\other\jquery-1.2.6.js" />
+    <Content Include="inc\js\other\jquery-layer.js" />
+    <Content Include="inc\js\sorttable.js" />
+    <Content Include="manage\userModify.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handler\dosome.ashx" />
+    <Content Include="inc\css\dtree.css" />
+    <Content Include="inc\css\jwindowUser.css" />
+    <Content Include="inc\css\treesimple.css" />
+    <Content Include="inc\images\calendar.gif" />
+    <Content Include="inc\images\treeImage\base.gif" />
+    <Content Include="inc\images\treeImage\calendar.gif" />
+    <Content Include="inc\images\treeImage\cd.gif" />
+    <Content Include="inc\images\treeImage\del_S.gif" />
+    <Content Include="inc\images\treeImage\empty.gif" />
+    <Content Include="inc\images\treeImage\folder.gif" />
+    <Content Include="inc\images\treeImage\folderopen.gif" />
+    <Content Include="inc\images\treeImage\globe.gif" />
+    <Content Include="inc\images\treeImage\imgfolder.gif" />
+    <Content Include="inc\images\treeImage\join.gif" />
+    <Content Include="inc\images\treeImage\joinbottom.gif" />
+    <Content Include="inc\images\treeImage\left-arrow.jpg" />
+    <Content Include="inc\images\treeImage\left-arrow2.jpg" />
+    <Content Include="inc\images\treeImage\line.gif" />
+    <Content Include="inc\images\treeImage\lmadd.gif" />
+    <Content Include="inc\images\treeImage\loging.gif" />
+    <Content Include="inc\images\treeImage\minus.gif" />
+    <Content Include="inc\images\treeImage\minusbottom.gif" />
+    <Content Include="inc\images\treeImage\musicfolder.gif" />
+    <Content Include="inc\images\treeImage\nolines_minus.gif" />
+    <Content Include="inc\images\treeImage\nolines_plus.gif" />
+    <Content Include="inc\images\treeImage\page.gif" />
+    <Content Include="inc\images\treeImage\plus.gif" />
+    <Content Include="inc\images\treeImage\plusbottom.gif" />
+    <Content Include="inc\images\treeImage\question.gif" />
+    <Content Include="inc\images\treeImage\trash.gif" />
+    <Content Include="inc\js\common.js" />
+    <Content Include="inc\js\datePicker.js" />
+    <Content Include="inc\js\dtree.js" />
+    <Content Include="inc\js\innerSupport.js" />
+    <Content Include="inc\js\WdatePicker.js" />
+    <Content Include="loginout.aspx" />
+    <Content Include="manage\MissionList.aspx" />
+    <Content Include="user\index11111.htm" />
+    <Content Include="user\userModify.aspx" />
+    <Content Include="user\viewList.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="filemanage\AddDoc.aspx" />
+    <Content Include="filemanage\default.aspx" />
+    <Content Include="handler\doMission.ashx" />
+    <Content Include="inc\css\jwindowFile.css" />
+    <Content Include="inc\docType.xml" />
+    <Content Include="inc\images\album_del.gif" />
+    <Content Include="inc\images\a_edit.gif" />
+    <Content Include="inc\images\a_edit1.gif" />
+    <Content Include="inc\images\delete.gif" />
+    <Content Include="inc\images\del_S.gif" />
+    <Content Include="inc\images\fu_btn.gif" />
+    <Content Include="inc\images\green.gif" />
+    <Content Include="inc\images\iedit1.gif" />
+    <Content Include="inc\images\loading.gif" />
+    <Content Include="inc\images\red.gif" />
+    <Content Include="inc\images\xgtb.jpg" />
+    <Content Include="inc\images\yellow.gif" />
+    <Content Include="manage\showEval.aspx" />
+    <Content Include="manage\showMission.aspx" />
+    <Content Include="manage\userList.aspx" />
+    <Content Include="user\viewMission.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handler\File.ashx" />
+    <Content Include="manage\FileUpload.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handler\missionFile.ashx" />
+    <Content Include="inc\images\download.jpg" />
+    <Content Include="manage\ExportTo.aspx" />
+    <Content Include="manage\systemManage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="database\journal.lvwei" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="inc\images\other\" />
+    <Folder Include="upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4958</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://192.168.0.43:2009</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

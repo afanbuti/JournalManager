@@ -1,0 +1,11 @@
+.libiao_menu { margin-bottom:15px;}  
+.libiao_menu h3 a { margin-top:15px; margin-bottom:15px; display:block; background:url(../picture/user_11.gif) no-repeat 20px 0; width:130px; height:28px; font-size:14px; text-align:left; padding-left:65px; padding-top:13px; color:#0066cc;}  
+.libiao_menu dl { margin-left:30px; margin-top:5px;}  
+.libiao_menu dl dt { font-size:14px; line-height:24px;}  
+.libiao_menu dl dt a { padding-left:13px; color:#333;}  
+.libiao_menu dl dt a.rights { background:url(http://www.heluyao.com.cn/images/user_23.gif) no-repeat 0 3px;}  
+.libiao_menu dl dt a.xias { background:url(http://www.heluyao.com.cn/images/user_23.gif) no-repeat 0 -41px;}  
+.libiao_menu dl dd { padding-left:20px;}  
+.libiao_menu dl dd ul {}  
+.libiao_menu dl dd ul li { font-size:14px; line-height:24px;}  
+.libiao_menu dl dd ul li a { color:#06c;}  

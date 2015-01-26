@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetChina.JournalModel", "NetChina.JournalModel\NetChina.JournalModel.csproj", "{58F0E030-F032-438F-AFFB-05F7BD3DD088}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetChina.AccessHelper", "NetChina.AccessHelper\NetChina.AccessHelper.csproj", "{4028C123-91C9-4036-9B6A-5C03122AAFA3}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{58F0E030-F032-438F-AFFB-05F7BD3DD088} = {58F0E030-F032-438F-AFFB-05F7BD3DD088}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetChina.Common", "NetChina.Common\NetChina.Common.csproj", "{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetChina.Other", "NetChina.Other\NetChina.Other.csproj", "{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JournalWeb", "JournalWeb\JournalWeb.csproj", "{790F1140-9266-440F-9259-F52AFD65EC39}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://zrhd_code_serve:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NetChina.AccessHelper\\NetChina.AccessHelper.csproj
+		SccProjectName1 = NetChina.AccessHelper
+		SccLocalPath1 = NetChina.AccessHelper
+		SccProjectUniqueName2 = NetChina.Common\\NetChina.Common.csproj
+		SccProjectName2 = NetChina.Common
+		SccLocalPath2 = NetChina.Common
+		SccProjectUniqueName3 = NetChina.JournalModel\\NetChina.JournalModel.csproj
+		SccProjectName3 = NetChina.JournalModel
+		SccLocalPath3 = NetChina.JournalModel
+		SccProjectUniqueName4 = NetChina.Other\\NetChina.Other.csproj
+		SccProjectName4 = NetChina.Other
+		SccLocalPath4 = NetChina.Other
+		SccProjectUniqueName5 = JournalWeb\\JournalWeb.csproj
+		SccProjectName5 = JournalWeb
+		SccLocalPath5 = JournalWeb
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58F0E030-F032-438F-AFFB-05F7BD3DD088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F0E030-F032-438F-AFFB-05F7BD3DD088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F0E030-F032-438F-AFFB-05F7BD3DD088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F0E030-F032-438F-AFFB-05F7BD3DD088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4028C123-91C9-4036-9B6A-5C03122AAFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4028C123-91C9-4036-9B6A-5C03122AAFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4028C123-91C9-4036-9B6A-5C03122AAFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4028C123-91C9-4036-9B6A-5C03122AAFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD35BF9D-67CA-4D8B-8A66-63AF18790ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C56E6-1AA1-4FA7-A09C-E9617B128104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790F1140-9266-440F-9259-F52AFD65EC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790F1140-9266-440F-9259-F52AFD65EC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790F1140-9266-440F-9259-F52AFD65EC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790F1140-9266-440F-9259-F52AFD65EC39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DocTypes>  
+  <DocType name="交友在线" key="1"/>
+  <DocType name="恋爱之家" key="2"/>
+  <DocType name="快乐家庭" key="3"/>
+  <DocType name="老乡会" key="4"/>
+  <DocType name="校友沙龙" key="5"/>
+  <DocType name="圈友同盟" key="6"/>
+  <DocType name="同行方舟" key="7"/>
+  <DocType name="中华沙龙" key="8"/>
+  <DocType name="中华社区" key="9"/>
+  <DocType name="中华互助" key="10"/>
+  <DocType name="个人中心" key="11"/>
+  <DocType name="个人事务" key="12"/>
+  <DocType name="交流互动" key="13"/>
+  <DocType name="原创地带" key="14"/>
+  <DocType name="时代人生" key="15"/>
+  <DocType name="生活助理" key="16"/>
+  <DocType name="玩乐吧" key="17"/>
+  <DocType name="策划文档" key="18"/>
+  <DocType name="效果图" key="19"/>
+  <DocType name="郑州文档" key="20"/>
+  <DocType name="北京文档" key="21"/>
+</DocTypes>

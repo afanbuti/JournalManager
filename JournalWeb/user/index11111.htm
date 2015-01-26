@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>总结内容添加结果</title>
+    
+    <style type="text/css">
+    
+    </style>
+    <script>
+t = 3; // 计数器
+setInterval("testTime()",1000); // 启动1秒定时
+function testTime() {
+  if(t<0) return; // 计数器值小于0，表示尚未开始倒计时
+  if(t == 0) // 计数器值为0，转向
+    location = "default.aspx";
+    view.innerHTML = "总结完成！<b>"+t+"</b>秒之后将自动跳转"; // 显示倒计时
+    t--; // 计数器递减
+}
+</script>
+
+
+</head>
+<body>
+<div id="div_content">
+<span id="view"></span>
+</div>
+</body>
+</html>
